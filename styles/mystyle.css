@@ -9,20 +9,16 @@ html, body{
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
-
     }
-
-
-
 #map-canvas {
       width: 90%;
-      height: 80%;
+      height: 85%;
       margin: auto;
       box-shadow: 2px 3px 19px -1px rgba(0,0,0,0.54);
       z-index: 3;
     }
+
 h1 {
-  
   z-index:4;
   color: white;
   top: -15px;
@@ -30,6 +26,42 @@ h1 {
   left: 0;
   right: 0;
   font-family: 'Press Start 2P', cursive;
-  font-size: 20px;
-
+  font-size: 17px;
 }
+
+h2 {
+  z-index: 4;
+  color: white;
+  text-align: center;
+  left: 0;
+  right: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 446px) {
+    #map-canvas {
+      height: 87.4%;
+    }
+  }
+
+@media screen and (min-width: 1024px) {
+  #map-canvas {
+    height: 85.5%; 
+  }
+  h1 {
+    font-size: 22px;
+  }
+  h2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  }
